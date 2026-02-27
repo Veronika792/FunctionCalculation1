@@ -15,7 +15,7 @@ int main() {
     cout << "a = " << a << ", b = " << b << ", c = " << c << endl << endl;
 
     // Перевірка коректності вхідних даних
-    double discriminant = pov(b,2) + b*a;
+    double discriminant = pow(b,2) + b*a;
     if (discriminant == 0) {
         cout << "ПОМИЛКА: Знаменник не може дорівнювати 0 (ділення на нуль)!" << endl;
         return 1;
@@ -32,7 +32,7 @@ int main() {
     double result = sqrt(denominator) / discriminant - abs(b+2);
 
     // Виведення результату
-    cout << "Формула: f = sqrt(a/(b-a)) / (pov(b,2)+b*a) - |b+2|" << endl;
+    cout << "Формула: f = sqrt(a/(b-a)) / (pow(b,2)+b*a) - |b+2|" << endl;
     cout << "Результат: f = " << result << endl;
     cout << "Результат (з точністю до 6 знаків): f = "
         << fixed << setprecision(6) << result << endl;
