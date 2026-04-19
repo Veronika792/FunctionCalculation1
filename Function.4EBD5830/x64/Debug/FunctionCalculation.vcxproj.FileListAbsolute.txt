@@ -1,0 +1,3 @@
+d:\Vero\4\FunctionCalculation1\Function.4EBD5830\x64\Debug\FunctionCalculation.vcxproj.AssemblyReference.cache
+d:\Vero\4\FunctionCalculation1\Function.4EBD5830\x64\Debug\FunctionCalculation.MyForm.resources
+d:\Vero\4\FunctionCalculation1\Function.4EBD5830\x64\Debug\FunctionCalculation.vcxproj.GenerateResource.cache
